@@ -7,13 +7,11 @@ gsap.registerPlugin(ScrollTrigger, SplitText)
 const App = () => {
 
     return (
-        <div>
-            <section>
-                <p className="text-5xl text-indigo-500">Hello my name is Don</p>
-            </section>
-            <section>About</section>
-            <section>Contact</section>
-        </div>
+
+        <section className="flex-center h-[100vh]">
+            <p className="text-5xl text-indigo-500">Hello my name is Don</p>
+        </section>
+
     )
 }
 
